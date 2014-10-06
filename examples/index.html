@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>CSS positions</title>
+	<style>
+		html {
+	  	font-family: "Helvetica Neue", Helvetica, "Segoe UI", Arial, freesans, sans-serif;
+	  }
+	  .box {
+	  	display:inline-block;
+	  	width:100px;
+	  	height:100px;
+	  	color:white;
+	  	background: #e74c3c;
+	  	margin:10px;
+
+	  	text-align: center;
+	  	line-height: 100px;
+	  }
+
+	  .two {
+	  	position:relative;
+	  	top:30px; left:10px;
+	  }
+
+	</style>
+</head>
+<body>
+	<div class="box">one</div>
+	<div class="box two">two</div>
+	<div class="box">three</div>
+</body>
+</html>
