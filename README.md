@@ -51,10 +51,29 @@ An absolutely positioned element is taking out the normal flow and the other ele
 
 ## fixed
 
-An element that has `fixed` as position's value i basically like an element absolutely positionned to the screen's viewport. It won't move when scrolled or resized. 
+An element that has `fixed` as position's value i basically like an element absolutely positionned to the screen's viewport. It won't move when scrolled.
 
 It is useful to create a floating element that stays in the same position.
 
 ## float
 
+`float` is a CSS positionning property that takes an element out the normal flow and shifted it to the `right` or `left` to its ancestor element.
+
+```css
+.floating {
+  float: left;
+}
+```
+
+![float](/assets/float.png)
+
+Its sibling elements in the normal flow will fill the empty space left. This is why floating elements are commonly used to do text wrap.
+
+![wrap](/assets/wrap.png)
+
+I don't like using `float` to layout interfaces because it forces you to clearfix (using the `clear` property ) a sibling element in order to move it down past the float or to prevent the parent to collapse.
+
+  > If you just need to display one element next to an other, you would prefer using [inline-blocks](https://github.com/owietrich/css-flow/#inline-block). It has the advantage to do exactly what you need and to keep your element in the normal flow.
+
 ## sticky
+

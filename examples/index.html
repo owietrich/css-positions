@@ -3,6 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>CSS positions</title>
+	<link rel="stylesheet" href="styles.css">
 	<style>
 		html {
 	  	font-family: "Helvetica Neue", Helvetica, "Segoe UI", Arial, freesans, sans-serif;
@@ -19,16 +20,37 @@
 	  	line-height: 100px;
 	  }
 
-	  .two {
-	  	position:relative;
-	  	top:30px; left:10px;
+
+
+	  .absolute {
+
+	  	background: #27ae60;
 	  }
 
+	  .fixed {
+	  	background:#e67e22;
+	  }
+
+	  .container {
+	  	width:400px;
+	  	margin-top:100px;
+	  	background:whitesmoke;
+	  }
+
+	  .right {
+	  	background:#9b59b6;
+	  }
 	</style>
 </head>
 <body>
-	<div class="box">one</div>
-	<div class="box two">two</div>
-	<div class="box">three</div>
+	<div class="box">normal</div>
+	<div class="box relative">relative</div>
+	<div class="box">normal</div>
+  <div class="box absolute">absolute</div>
+  <div class="box fixed">fixed</div>
+  <div class="container">
+  	<div class="box">normal</div>
+  	<div class="box right">float right</div>
+  </div>
 </body>
 </html>
