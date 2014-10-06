@@ -49,6 +49,9 @@ An absolutely positioned element is taking out the normal flow and the other ele
 
 ## fixed
 
+An element that has `fixed` as position's value i basically like an element absolutely positionned  to the screen's viewport. It won't move when scrolled or resized. 
+
+
 ## float
 
 ## sticky
