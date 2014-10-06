@@ -24,7 +24,7 @@ The position property `relative` allows you to adjust an element's position in t
 }
 ```
 
-![relative](/assets/relatives.png)
+![relative](/assets/relative.png)
 
 
 As seen above, you can change the position of a relative element with optional offset properties such as `top, right, bottom, left`. The other elements in the normal flow are displayed as if the relative element were in its normal/static position.
