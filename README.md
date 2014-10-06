@@ -47,10 +47,13 @@ An absolutely positioned element is positioned relatively to its closest positio
 An absolutely positioned element is taking out the normal flow and the other elements are displayed as it wasn't there.
 
 
+ > animations are faster on elements taken out the flow because they won't trigger repaint, relayout or reflow on sibling elements.
+
 ## fixed
 
-An element that has `fixed` as position's value i basically like an element absolutely positionned  to the screen's viewport. It won't move when scrolled or resized. 
+An element that has `fixed` as position's value i basically like an element absolutely positionned to the screen's viewport. It won't move when scrolled or resized. 
 
+It is useful to create a floating element that stays in the same position.
 
 ## float
 
