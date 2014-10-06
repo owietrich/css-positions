@@ -31,6 +31,20 @@ You also can change the `z-index` of a relatively positioned element.
 
 ## absolute
 
+An absolutely positioned element is positioned relatively to its closest positioned ancestor (or the document body if any). 
+
+
+```css
+.two {
+  position: absolute;
+  top: 70px;
+  left: 30px;
+}
+```
+
+![absolute](/assets/absolute.png)
+
+An absolutely positioned element is taking out the normal flow and the other elements are displayed as it wasn't there.
 
 
 ## fixed
