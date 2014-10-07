@@ -78,6 +78,9 @@ I don't like using `float` to layout interfaces because it forces you to clearfi
   > If you just need to display one element next to an other, you would prefer using [inline-blocks](https://github.com/owietrich/css-flow/#inline-block). It has the advantage to do exactly what you need and to keep your element in the normal flow.
 
 
+
+If you have any questions or comments, please feel free to post an [issue](https://github.com/owietrich/css-positions/issues).
+
 ## License
 
 The MIT License (MIT)
